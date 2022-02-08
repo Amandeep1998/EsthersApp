@@ -5,18 +5,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-import Home from "./components/pages/Home";
+import Home from "./components/Home/Home";
+import Instagram from "./pages/Instagram";
 
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/instagram" element={<Instagram />} />
       </Routes>
-      <Footer />
     </>
   );
 };

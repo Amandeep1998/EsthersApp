@@ -3,14 +3,13 @@ import styled from "styled-components";
 import { ShoppingCart, List } from "phosphor-react";
 
 const Header = styled.div`
-  height: 10vh;
+  height: 80px;
   position: fixed;
   width: 100vw;
   background-color: #fff;
   display: flex;
   z-index: 10;
   justify-content: center;
-  box-shadow: 0 8px 6px -8px black;
 `;
 
 const HeaderContainer = styled.div`
